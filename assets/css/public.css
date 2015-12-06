@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* public */
+*{margin:0;padding:0;list-style:none;}
+.clr{clear:both; display:none;}
+body{
+	background-color:#f6f6f6;
+	font-family:Baskerville, "微软雅黑", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	}
+#g-bodybox{
+	margin-top:10px;
+	height:550px;
+	width:100%;
+	padding:1% 10% 1% 10%;
+}
+
+/* head */
+#head{display:inline-block;width:100%;background:#4caf50;height:60px;-webkit-box-shadow: 0px 0px 6px 0px #909090; /*阴影*/}
+#head a{text-decoration:none;}
+#head #home .icon:hover,#head .icon:hover,#head #search .icon:hover{color:#FF6;}
+#head #home{margin-left:10%;width:30%;}
+#head #home .icon-home{color:#fff;}
+#head #home #title{font-size:32px;color:#fff;padding-left:1%;}
+
+#head #search{margin-left:45%;margin-top:-42px;width:50%;}
+#head #search .icon-search{color:#fff;}
+#head #search_text{width:30%;height:32px;border:1px solid #4caf50;border-radius:10px;}
+
+#head #T-user,#head #M-user{margin-left:80%;margin-top:-2%;color:#FFF;display:none;}
+#head #T-user,#head #M-user #M-ma1{width:80px;}
+#head #userName{margin-left:10px;font-size:16px;}
+#head #M-user .icon-cog{float:right;margin-right:55%;margin-top:-10%;}
+#head #M-user #set2,#head #M-user #set1,#head #T-user #set1{
+	display:none;
+	position:absolute;  
+	font-size:16px;
+	background-color:#FFF;
+	border:1px solid #4caf50;
+	border-radius:5px;
+	width:80px;
+	height:50px;
+	text-align:center;
+	float:right;}
+#head #M-user #set2{
+	margin-left:4%;
+}
+
+/* foot */
+#foot{background:#212121;height:30px;text-align:center;}
+#foot span{font-size:18px;color:#fff; line-height:30px;}
+
+/* g-leftbar */
+#g-bodybox #g-leftbar{
+	-webkit-box-shadow: 1px 1px 8px #909090; /*阴影*/
+	float:left;
+	font-size:15px;
+	background-color:#FFF;
+	border:1px #CCC solid;
+	border-radius:8px;
+	height:515px;
+	width:25%;	
+}
+
+#g-bodybox #g-leftbar .lefthead{
+	height:45px;
+	background:#4cb050;
+	border-radius:8px 8px 0px 0px;
+	}
+#g-bodybox #g-leftbar .lefthead span{
+	color:#fff;
+	font-size:18px;
+	margin-left:15px;
+	line-height:45px;
+}
+/* g-rightbarbox */
+#g-bodybox #g-rightbar{
+	-webkit-box-shadow: 1px 1px 8px #909090; /*阴影*/
+	height:515px;
+	width:73%;
+	float:right;
+	font-size:8px;
+	background-color:#FFF;
+	border:1px #CCC solid;
+	border-radius:8px;
+	}

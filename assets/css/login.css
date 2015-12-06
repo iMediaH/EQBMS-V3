@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*<!--
+	作者：彭均莹
+    任务：登录页style
+    开发时间：2015/11/04
+	修改时间：2015/11/15
+-->*/
+
+/* login */
+#head #loginuser{margin-top:-20%;margin-left:80%;margin-top:-2%;color:#FFF;}
+
+#g-bodybox{margin-top:2px;}
+#g-bodybox #l-content{
+	float:right;
+	margin:10% 20% 0 0;
+}
+#g-bodybox ul{
+	margin-top:-235px;
+	}
+#g-bodybox ul li{
+	list-style:url(../../images/ul.png);
+	font-size:18px;
+	margin-left:28px;
+	padding:13px 5px 13px 5px;
+}
+#inputbox{
+	border-radius:5px;
+	margin-left:15px;
+	height:24px;
+	width:160px;
+	border:1px solid #999;
+}
+#g-bodybox #l-content #type{
+	margin:0 20px 0 5px;
+}
+#loginBtn{
+	background-color:transparent;
+	width:300px;
+	height:62px;
+	border:hidden;
+	font-size:20px;
+	color:#FFF;
+	text-align:center;
+}

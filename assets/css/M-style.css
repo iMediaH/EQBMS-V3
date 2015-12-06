@@ -1,0 +1,317 @@
+@charset "utf-8";
+/*<!--
+	作者：彭均莹
+    任务：管理员-修改密码,查看/修改用户信息style
+-->*/
+
+/* M-head */
+#head #loginuser{display:none;}
+#head #M-user{display:block;}
+
+/* commonbox M-viewuserinfo,M-adduserinfo,M-edituserinfo */
+#M-boxsm{
+	-webkit-box-shadow: 1px 1px 8px #909090; /* 阴影 */
+	background-color:#FFF;
+	border:1px #CCC solid;
+	border-radius:8px;
+	height:420px;
+	width:43%;
+	margin:2% auto 0 auto;
+	color:#000;
+	font-size:18px;
+	padding:3% 0 0 8%;}
+#M-boxsm ul li{
+	margin-bottom:20px;
+}
+#M-boxsm label{
+	width:110px;
+	font-weight:normal;
+	display:inline-block;
+	text-align:left;	
+}
+#M-boxsm #showinfo{
+	margin-left:20px;
+	text-align:left;
+	}
+#M-boxsm .inputbox{
+	border-radius:5px;
+	font-size:14px;
+	height:25px;
+	width:160px;
+	border:1px solid #999;
+}
+#g-bodybox .boxsm{
+	margin-top:8%;
+	height:300px;
+	padding-top:5%;
+}
+/*commonbtn*/
+#clickbtn{
+	margin:3% auto;
+	text-align:center;
+	}
+#clickbtn .btn{
+	margin:0 3% 0;
+	}
+#clickbtn .btn-default{
+	background-color:#999;
+	color:#FFF; 
+	}
+
+/* M-usermanage */
+/*  查看用户
+	每个用户框高度：130px，宽：220px;
+	图片宽90:px;
+*/
+#M-user_box{
+	-webkit-box-shadow: 1px 1px 8px #909090; /*阴影*/
+	height:515px;
+	width:100%;
+	margin:auto;
+	padding:0 1% 0 1%;
+	background-color:#FFF;
+	border:1px #CCC solid;
+	border-radius:8px;
+}
+#M-user_box #M-user_operate{
+	width:100%;
+	margin:auto;
+	height:40px;
+	display:inline-block;
+	padding:2% 2% 0;
+}
+#M-user_box #M-user_operate #M-user_addbox{
+	float:left;
+	width:10px;
+	color:#4caf50;
+}
+#M-user_box #M-user_operate .icon:hover{color:#FF6;}
+
+#M-user_box #M-user_searchbox{
+	float:right;
+	color:#FFF;
+	margin-right:1%;
+}
+#M-user_box span{
+	color:#4caf50;
+	margin-left:50px;
+}
+#M-user_box #M-user_searchbox #search-text{
+	background-color:#4caf50;
+	width:160px;
+	margin-right:5px;
+	height:30px;
+	border:1px solid #4caf50;
+	border-radius:8px;
+}
+#M-user_box #M-user_searchbox .icon-search{color:#4caf50;}
+
+#M-user_box #M-user_userbox{
+	margin:auto;
+	margin-top:2%;
+	height:350px;
+	width:100%;
+}
+#M-user_box #M-user_userbox a{
+	color:#FFF;
+}
+
+/* eachuseroverlay */
+#M-user_box #M-user_userbox #each{
+	display:inline-block; 
+	margin:2% 2.5% 2% 2.5%;
+	color:#FFF;
+	height:130px;
+	width:210px;
+	background-color:#4caf50;
+	text-align:left;
+}
+#M-user_box #M-user_userbox #each #mask{
+	display:none;
+	position:absolute;     
+	background-color:#388e3c;	
+	color:#FFF;
+	text-align:right;
+	height:20px;
+	width:inherit;
+}
+#mask .icon{
+	padding-right:5px;
+}
+#M-user_box #M-user_userbox #each #userinfo-sim{
+	width:inherit;
+	margin:10% auto;
+}
+#M-user_box #M-user_userbox #each #userinfo-sim img{
+	width:90px;
+	float:left;
+	margin:0 6% 0 6%;
+}
+
+/* page style */
+#M-user_box #pages{
+	width:100%;
+	text-align:center;
+	font-size:24px;
+	margin-top:2%;
+}
+#M-user_box #pages ul li{
+	background:url(../../images/pageoff.png) no-repeat;
+	display:inline-block;
+	color:#CCC;
+	height:40px;
+	width:40px;
+	margin:0 20px 0 20px;
+}
+#M-user_box #pages ul li:hover,.active{
+	background:url(../../images/pageon.png) no-repeat;
+	display:inline-block;
+	color:#666;
+
+}
+
+
+/* ************* quesmanage ************ */
+/* g-leftbar ques-type */
+#g-leftbar .ques-type{
+	border-top:1px solid #CCC;
+	background:#EEE;
+	color:#000;
+	
+}
+#g-leftbar .ques-type:hover{
+	background:#CCC;
+}
+#g-leftbar .ques-type span{
+	margin-left:15px;
+	line-height:40px;
+	font-size:16px;
+}
+#g-leftbar .ques-type #counts{
+	font-size:12px;
+	color:#666;
+}
+#g-leftbar .ques-list a{
+	text-decoration:none;
+	color:#000;
+}
+#g-leftbar .ques-list li{
+	list-style:inside;
+	margin-left:35px;
+	line-height:30px;
+	font-size:14px;
+}
+#g-leftbar .ques-list .type:hover{
+	color:#4caf50;
+}
+#g-leftbar .ques-type #ques-set{
+	float:right;
+}
+#g-leftbar .ques-type .icon-plus-sign{
+	margin:0 20px 0 0;
+	display:none;
+}
+#g-leftbar input{
+	border:none;
+	background:#FFF;
+	width:100px;
+}
+#g-leftbar .ques-list .icon{
+	float:right;
+	line-height:30px;
+	margin:0 20px 0 0;
+	display:none;
+}
+
+/* g-rightbar ques */	
+#g-rightbar{
+	padding:10px 0;}
+#g-rightbar #r_head{
+	display:inline;	
+	margin-left:1.5%;
+	}
+	
+#g-rightbar #r_head .icon-search ,.icon-plus-sign{
+	color:#4caf50;
+	}
+#g-rightbar .icon-plus-sign{
+	position:absolute; right:12%;
+	}
+#g-rightbar #r_head .icon-search{
+	position:absolute; right:15%;
+	}	
+#g-rightbar .icon:hover{color:#FF6;}
+#g-rightbar hr{
+	margin:2% auto 0.4% auto;
+	width:97%;
+	border-color:#CCC;
+}
+#g-rightbar #r_body{
+	height:400px;
+}
+#g-rightbar #table1{
+	margin:auto;
+	text-align:center;
+	width:97%;
+}
+
+#g-rightbar #table1 th{
+	text-align:center;
+	background:#dfeecd;
+	padding:5px 0 5px 0;
+	font-size:14px;
+	border-right:solid 2px #4caf50;
+}
+#g-rightbar #table1 td{
+	height:36px;
+	border-top:#CCC 1px solid;
+}
+#g-rightbar #table1 .quesinfo{
+	text-align:left;
+	line-height:36px;
+	height:36px;
+	width:420px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+#g-rightbar #table1 a{
+	color:#4caf50;
+}
+	
+#g-rightbar #bottom{
+	margin:1% auto;
+	width:95%;
+	display:block;
+}
+
+#g-rightbar #bottom #pages{
+	float:right;
+	text-align:center;
+	margin-right:60%;}
+#g-rightbar #bottom #pages ul li{
+	display:inline;}
+
+	
+/* ques viewinfo */
+#g-rightbar #ques-viewinfo{
+	height:375px;
+}
+#g-rightbar #ques-viewinfo #table2{
+	width:92%;
+	margin:auto;
+}
+#g-rightbar #ques-viewinfo #table2 tr{
+	font-size:15px;
+	border-bottom:1px #F0F0F0 solid;
+}
+#g-rightbar #ques-viewinfo #table2 th{
+	width:30%;
+	text-align:right;
+	padding:1.5%;
+	padding-right:4%;
+}
+
+#g-rightbar #clickbtn{
+	margin-top:2%;
+}

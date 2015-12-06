@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*TeacherIndex*/
+		.icon-plus-sign{cursor:pointer;}
+		.icon-remove-sign{cursor:pointer;}
+
+#head #loginuser{display:none;}
+#head #T-user{display:block;}
+
+#g-bodybox  #leftaddchild li{list-style:inside;}
+
+#g-bodybox #g-leftbar .lefthead .icon-plus-sign{
+	color:#FF6;
+	margin-left:50%;
+}	
+
+#g-bodybox #g-leftbar .lefthead span{
+	color:#fff;
+	font-size:18px;
+	margin-left:15px;
+	line-height:45px;
+}
+/*g-leftbar menu*/
+#leftbox #g-leftbar .menu-2 .icon-plus-sign{
+		margin-left:20%;
+	}
+<!-- *************** -->
+#g-bodybox #g-leftbar .leftbody{
+	color:#000
+	;
+	
+}
+#g-bodybox #g-leftbar  .icon-plus-sign{
+	color:#FF6;
+	margin-left:29px;
+	
+}
+#g-bodybox #g-leftbar #leftbody{
+	background-color:#FFF;
+	width:271px;
+	padding-left:17px;
+	}
+	
+#g-bodybox #g-leftbar .icon-remove-sign{
+	color:#F00;	
+}
+
+#g-bodybox #g-leftbar #leftaddchild #del{
+	padding-left:12px;	
+	}
+	
+	
+	
+/* rgihtbar 首页css*/	
+#g-bodybox #g-rightbar{padding:10px 0 0 10px;}
+#g-bodybox #g-rightbar #r_head{
+	display:inline;	
+	}
+	
+#g-bodybox #g-rightbar #r_head .icon-search {
+	color:#4cb050;
+	}
+	
+#g-bodybox #g-rightbar #r_head .icon-plus-sign {
+	color:#4cb050;
+	}	
+	
+#g-bodybox #g-rightbar  #r_head .icon-plus-sign{
+	position:absolute; right:12%;
+	}
+#g-bodybox #g-rightbar #r_head .icon-search{
+	position:absolute; right:15%;
+	}	
+	
+hr{width:97%;border-color:#0C9;}	
+
+#g-bodybox #g-rightbar table{width:97%;margin-top:2%;border-top:#0C0;}
+#g-bodybox #g-rightbar table tr{height:20px;}
+#g-bodybox #g-rightbar table th{text-align:center;font-size:14px;padding:5px 0 5px 0;}
+#g-bodybox #g-rightbar table td{text-align:center;}
+#g-bodybox #g-rightbar table img{margin-left:40%;}
+
+
+/* revise-rightbar css*/
+#g-bodybox #g-rightbar form {
+	margin-left:2%;	
+	}
+#g-bodybox #g-rightbar form #revise_input{position:absolute;top:21%;left:40%;}
+#g-bodybox #g-rightbar form #revise_intro{font-size:14px;}
+#g-bodybox #g-rightbar form #revise_intro img{margin-right:8px;}
+#g-bodybox #g-rightbar form #revise_intro p{margin-bottom:20px;}
+#g-bodybox #g-rightbar form #revise_input p{margin-bottom:20px;}
+#g-bodybox #g-rightbar form #revise_btn{margin-left:5%;}
+#g-bodybox #g-rightbar form #revise_btn #warning{margin-right:20px;}
+#g-bodybox #g-rightbar form #revise_btn .btn-default{background:#F03;color:#FFF;}
+#g-bodybox #g-rightbar form #revise_input #true{color:#F00;}
+
+/* lookquestion-rightbar css*/
+
+#g-bodybox #g-rightbar #lq_head li{
+	display:inline;
+		
+	}
+#g-bodybox #g-rightbar #lq_head_li {
+	position:absolute;right:15%;
+	}
+
+#g-bodybox #g-rightbar #question_show_name p{font-size:16px;}
+#g-bodybox #g-rightbar #question_show_name p{margin-bottom:30px;}
+#g-bodybox #g-rightbar #question_show_name {text-align:right;width:15%;}
+
+#g-bodybox #g-rightbar #question_show{position:absolute;top:21%;left:45%;}
+
+
+/* addquestion-RadioButtonList-rightbar css*/
+
+#g-bodybox #g-rightbar #aqRB_head #aqRB_head_li{
+	display:inline;
+	position:absolute;right:15%;top:14%;}
+
+#g-bodybox #g-rightbar #aqRB_main li select{width:18%;}
+#g-bodybox #g-rightbar #aqRB_main .aqRB_font{font-size:18px;}
+#g-bodybox #g-rightbar #aqRB_main .icon-plus-sign{color:#4cb050;}
+#g-bodybox #g-rightbar #aqRB_main .icon-remove-sign{color:#F00;}
+
+
+#g-rightbar #aqRB_main #circle1{color:#093;}
+#g-rightbar #aqRB_main #circle2{color:#FC0;}
+#g-rightbar #aqRB_main #circle3{color:#F00;}
+
+
+#g-rightbar #aqRB_main li{margin-bottom:3%;}
+#g-rightbar #aqRB_main li #inSub{margin-left:45%;}
+#g-rightbar #aqRB_main #difficult .dif{font-size:16px;}
+#g-rightbar #aqRB_main li .aqRB_font{position:relative;right:85%;float:right;}
+#g-rightbar #aqRB_main  .aqRB_input{position:relative;right:-19%;}
+
+/* */
+
+
